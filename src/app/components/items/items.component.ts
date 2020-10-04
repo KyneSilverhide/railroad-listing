@@ -3,6 +3,8 @@ import {Item} from '../../models/item.model';
 import {ItemService} from '../../services/item.service';
 import {LangService} from '../../services/lang.service';
 import {Language} from '../../models/lang.model';
+import {MatDialog} from '@angular/material/dialog';
+import {PictureDialogComponent} from '../picture-dialog/picture-dialog.component';
 
 @Component({
   selector: 'app-items',
@@ -17,7 +19,7 @@ export class ItemsComponent implements OnInit {
 
   displayedColumns: string[] = ['image', 'reference', 'quantity', 'comment'];
 
-  constructor(private itemService: ItemService, private languageService: LangService) {
+  constructor(private itemService: ItemService, private languageService: LangService, private dialog: MatDialog) {
   }
 
   ngOnInit(): void {
@@ -29,6 +31,12 @@ export class ItemsComponent implements OnInit {
 
   fetchItems(lang: Language): void {
     this.itemService.getItems(this.section, lang).subscribe(value => this.items = value);
+  }
+
+  openPicture(item: Item): void {
+    this.dialog.open(PictureDialogComponent, {
+      data: {item}
+    });
   }
 
 }

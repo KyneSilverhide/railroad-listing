@@ -1,0 +1,7 @@
+<h1 mat-dialog-title>Référence : {{ item.reference }}</h1>
+<div mat-dialog-content>
+  <img class="full-picture" [src]="item.imagePath"/>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="closeDialog()">Fermer</button>
+</div>

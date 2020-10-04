@@ -3,7 +3,7 @@
     <th mat-header-cell *matHeaderCellDef>Image</th>
     <td mat-cell *matCellDef="let item">
       <img [ngClass]="{'thumbnail' : item.thumbnail === undefined || item.thumbnail === true}" [src]="item.imagePath"
-           [alt]="item.reference"/>
+           [alt]="item.reference" (click)="openPicture(item)"/>
     </td>
   </ng-container>
   <mat-text-column headerText="Référence" name="reference"></mat-text-column>

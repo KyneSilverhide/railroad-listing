@@ -22,6 +22,8 @@ import {FormsModule} from '@angular/forms';
 import {LangSwitcherComponent} from './components/lang-switcher/lang-switcher.component';
 import {ScrollToModule} from '@nicky-lenaers/ngx-scroll-to';
 import {LayoutComponent} from './components/layout/layout.component';
+import {MatDialogModule} from '@angular/material/dialog';
+import { PictureDialogComponent } from './components/picture-dialog/picture-dialog.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +32,7 @@ import {LayoutComponent} from './components/layout/layout.component';
     ItemsComponent,
     LangSwitcherComponent,
     LayoutComponent,
+    PictureDialogComponent,
   ],
   imports: [
     BrowserModule,
@@ -48,7 +51,8 @@ import {LayoutComponent} from './components/layout/layout.component';
     MatTableModule,
     MatButtonToggleModule,
     FormsModule,
-    ScrollToModule.forRoot()
+    ScrollToModule.forRoot(),
+    MatDialogModule
   ],
   providers: [],
   bootstrap: [AppComponent]
