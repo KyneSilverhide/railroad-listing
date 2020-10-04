@@ -1,0 +1,70 @@
+[
+  {
+    "imagePath": "assets/images/IMG_20200929_173721.jpg",
+    "reference": "Jouef 627000",
+    "quantity": 1,
+    "comment": "Wagon bière \"Heineken\""
+  },
+  {
+    "imagePath": "assets/images/IMG_20200929_173822.jpg",
+    "reference": "Marklin 4914",
+    "quantity": 1,
+    "comment": "Long wagon plat à bord bas"
+  },
+  {
+    "imagePath": "assets/images/IMG_20200929_173810.jpg",
+    "reference": "Marklin 4671",
+    "quantity": 1,
+    "comment": "Wagon grue, entièrement métallique. Une attache manquante",
+    "warning": "WARNING"
+  },
+  {
+    "imagePath": "assets/images/IMG_20200929_173734.jpg",
+    "reference": "Mehano 18504",
+    "quantity": 1,
+    "comment": "Wagon long \"Burlington\""
+  },
+  {
+    "imagePath": "assets/images/IMG_20200929_173707.jpg",
+    "reference": "??",
+    "quantity": 1,
+    "comment": "Wagon tombereau. Une attache manquante",
+    "warning": "WARNING"
+  },
+  {
+    "imagePath": "assets/images/IMG_20200929_173511.jpg",
+    "reference": "Marklin 4114",
+    "quantity": 1,
+    "comment": "Wagon passagers SNCB"
+  },
+  {
+    "imagePath": "assets/images/IMG_20200929_173519.jpg",
+    "reference": "Marklin 5810",
+    "quantity": 1,
+    "comment": "Wagon passagers 1ere et 2eme classe"
+  },
+  {
+    "imagePath": "assets/images/IMG_20200929_174400.jpg",
+    "reference": "??",
+    "quantity": 1,
+    "comment": "Wagon Restaurant"
+  },
+  {
+    "imagePath": "assets/images/IMG_20200929_173553.jpg",
+    "reference": "??",
+    "quantity": 1,
+    "comment": "?? Wagon SNCF"
+  },
+  {
+    "imagePath": "assets/images/IMG_20200929_173534.jpg",
+    "reference": "Lima 9203",
+    "quantity": 1,
+    "comment": "Wagon-lits"
+  },
+  {
+    "imagePath": "assets/images/IMG_20200929_173606.jpg",
+    "reference": "Lima 9203",
+    "quantity": 1,
+    "comment": "Wagon voyageur"
+  }
+]

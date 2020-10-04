@@ -1,0 +1,12 @@
+<div class="container">
+  <mat-card class="card-section" *ngFor="let section of sections">
+    <mat-card-header>
+      <span [id]="'section-' + section.code" style="position: relative; top: -80px"></span>
+      <div mat-card-avatar [ngClass]="'card-' + section.code"></div>
+      <mat-card-title>{{section.name}}</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <app-items [section]="section.code"></app-items>
+    </mat-card-content>
+  </mat-card>
+</div>

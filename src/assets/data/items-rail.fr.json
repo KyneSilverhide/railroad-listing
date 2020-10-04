@@ -1,0 +1,65 @@
+[
+  {
+    "imagePath": "assets/images/rails/0.bmp",
+    "reference": "5100",
+    "quantity": 14,
+    "comment": "",
+    "thumbnail": false
+  },
+  {
+    "imagePath": "assets/images/rails/1.bmp",
+    "reference": "5106",
+    "quantity": 22,
+    "comment": "Un rail est légèrement enfoncé en son milieu, mais pas assez pour provoquer un déraillement.",
+    "thumbnail": false
+  },
+  {
+    "imagePath": "assets/images/rails/2.bmp",
+    "reference": "5141",
+    "quantity": 1,
+    "comment": "Opération manuelle OK. Lumière OK. Opération via boitier externe non testée.",
+    "thumbnail": false
+  },
+  {
+    "imagePath": "assets/images/rails/3.bmp",
+    "reference": "5142",
+    "quantity": 1,
+    "comment": "Opération manuelle OK. Lumière ne marche pas (faux contact, s'allume si on appuie sur le rail). Opération via boitier externe non testée.",
+    "thumbnail": false
+  },
+  {
+    "imagePath": "assets/images/rails/4.bmp",
+    "reference": "5200",
+    "quantity": 6,
+    "comment": "",
+    "thumbnail": false
+  },
+  {
+    "imagePath": "assets/images/rails/5.bmp",
+    "reference": "5206",
+    "quantity": 3,
+    "comment": "",
+    "thumbnail": false
+  },
+  {
+    "imagePath": "assets/images/rails/6.bmp",
+    "reference": "5221 L",
+    "quantity": 3,
+    "comment": "Opération manuelle OK",
+    "thumbnail": false
+  },
+  {
+    "imagePath": "assets/images/rails/7.bmp",
+    "reference": "5221 R",
+    "quantity": 3,
+    "comment": "Opération manuelle OK",
+    "thumbnail": false
+  },
+  {
+    "imagePath": "assets/images/rails/8.bmp",
+    "reference": "7190",
+    "quantity": 2,
+    "comment": "",
+    "thumbnail": false
+  }
+]
