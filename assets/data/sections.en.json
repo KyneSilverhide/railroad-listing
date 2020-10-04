@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Tracks",
+    "code": "rail"
+  },
+  {
+    "name": "Locomotives",
+    "code": "loco"
+  },
+  {
+    "name": "Wagons",
+    "code": "wagon"
+  },
+  {
+    "name": "Decoration",
+    "code": "deco"
+  },
+  {
+    "name": "Miscellanous",
+    "code": "other"
+  }
+]

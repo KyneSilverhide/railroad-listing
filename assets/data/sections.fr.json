@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Rails",
+    "code": "rail"
+  },
+  {
+    "name": "Locomotives",
+    "code": "loco"
+  },
+  {
+    "name": "Wagons",
+    "code": "wagon"
+  },
+  {
+    "name": "Decoration",
+    "code": "deco"
+  },
+  {
+    "name": "Autre",
+    "code": "other"
+  }
+]

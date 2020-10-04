@@ -1,0 +1,15 @@
+[
+  {
+    "imagePath": "assets/images/IMG_20200929_173500.jpg",
+    "reference": "3031",
+    "quantity": 1,
+    "comment": "Locomotive à vapeur BR 81, analogique. Fonctionne très bien dans les deux directions. Nouvelles ampoules pour les phares. Une attache incomplète mais fonctionnelle."
+  },
+  {
+    "imagePath": "https://wiki.3rail.nl/images/thumb/9/9f/M3000-001.jpg/350px-M3000-001.jpg",
+    "reference": "3000",
+    "quantity": 1,
+    "comment": "Locomotive à vapeur BR 89. Ne peut que se déplacer un tout petit peu.",
+    "warning": "CRITICAL"
+  }
+]
