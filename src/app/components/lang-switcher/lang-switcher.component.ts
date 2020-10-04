@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {LangService} from '../../services/lang.service';
 import {Language} from '../../models/lang.model';
 
@@ -9,9 +9,10 @@ import {Language} from '../../models/lang.model';
 })
 export class LangSwitcherComponent implements OnInit {
 
-  language:Language = 'fr';
+  language: Language = 'fr';
 
-  constructor(private langService: LangService) { }
+  constructor(private langService: LangService) {
+  }
 
   ngOnInit(): void {
   }

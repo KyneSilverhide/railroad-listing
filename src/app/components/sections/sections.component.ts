@@ -11,7 +11,8 @@ import {Language} from '../../models/lang.model';
 })
 export class SectionsComponent implements OnInit {
 
-  constructor(private itemService: ItemService, private langService: LangService) { }
+  constructor(private itemService: ItemService, private langService: LangService) {
+  }
 
   sections: Section[];
 

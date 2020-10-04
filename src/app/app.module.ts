@@ -19,8 +19,9 @@ import {ItemsComponent} from './components/items/items.component';
 import {MatTableModule} from '@angular/material/table';
 import {MatButtonToggleModule} from '@angular/material/button-toggle';
 import {FormsModule} from '@angular/forms';
-import { LangSwitcherComponent } from './components/lang-switcher/lang-switcher.component';
+import {LangSwitcherComponent} from './components/lang-switcher/lang-switcher.component';
 import {ScrollToModule} from '@nicky-lenaers/ngx-scroll-to';
+import {LayoutComponent} from './components/layout/layout.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import {ScrollToModule} from '@nicky-lenaers/ngx-scroll-to';
     SectionsComponent,
     ItemsComponent,
     LangSwitcherComponent,
+    LayoutComponent,
   ],
   imports: [
     BrowserModule,
